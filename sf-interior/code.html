@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+
+<html class="light" lang="id"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>SF Interior - Minimalis Modern</title>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&amp;family=Noto+Serif:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-error": "#ffffff",
+                        "secondary": "#5c5f60",
+                        "surface-dim": "#dadada",
+                        "tertiary-container": "#696868",
+                        "on-primary-fixed": "#001550",
+                        "surface-variant": "#e2e2e2",
+                        "on-background": "#1a1c1c",
+                        "surface-bright": "#f9f9f9",
+                        "on-secondary": "#ffffff",
+                        "on-secondary-container": "#626566",
+                        "surface": "#f9f9f9",
+                        "on-primary-container": "#e5e8ff",
+                        "primary": "#0043c8",
+                        "error-container": "#ffdad6",
+                        "outline": "#737688",
+                        "primary-container": "#0057ff",
+                        "inverse-primary": "#b6c4ff",
+                        "primary-fixed-dim": "#b6c4ff",
+                        "surface-container": "#eeeeee",
+                        "surface-container-high": "#e8e8e8",
+                        "on-secondary-fixed": "#191c1d",
+                        "tertiary-fixed-dim": "#c8c6c5",
+                        "surface-container-highest": "#e2e2e2",
+                        "surface-tint": "#004ee7",
+                        "primary-fixed": "#dce1ff",
+                        "on-tertiary-fixed-variant": "#474746",
+                        "secondary-fixed": "#e1e3e4",
+                        "on-secondary-fixed-variant": "#454748",
+                        "outline-variant": "#c3c5d9",
+                        "on-tertiary-fixed": "#1c1b1b",
+                        "secondary-container": "#e1e3e4",
+                        "error": "#ba1a1a",
+                        "on-error-container": "#93000a",
+                        "tertiary-fixed": "#e5e2e1",
+                        "on-tertiary": "#ffffff",
+                        "background": "#f9f9f9",
+                        "surface-container-lowest": "#ffffff",
+                        "tertiary": "#515050",
+                        "on-tertiary-container": "#ebe8e8",
+                        "on-primary-fixed-variant": "#003ab2",
+                        "surface-container-low": "#f4f3f3",
+                        "on-surface": "#1a1c1c",
+                        "on-primary": "#ffffff",
+                        "secondary-fixed-dim": "#c5c7c8",
+                        "inverse-surface": "#2f3131",
+                        "on-surface-variant": "#434656",
+                        "inverse-on-surface": "#f1f1f1"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "jarak-sedang": "32px",
+                        "jarak-kecil": "16px",
+                        "jarak-mikro": "4px",
+                        "satuan-dasar": "8px",
+                        "jarak-besar": "64px",
+                        "jarak-ekstra": "128px",
+                        "gutter-grid": "24px",
+                        "margin-kontainer": "80px"
+                    },
+                    "fontFamily": {
+                        "judul-ekstra-besar": ["Noto Serif"],
+                        "keterangan-kecil": ["Inter"],
+                        "paragraf-utama": ["Inter"],
+                        "subjudul-arsitektur": ["Noto Serif"],
+                        "label-tombol": ["Inter"],
+                        "judul-halaman": ["Noto Serif"]
+                    },
+                    "fontSize": {
+                        "judul-ekstra-besar": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "keterangan-kecil": ["12px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "paragraf-utama": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "subjudul-arsitektur": ["24px", {"lineHeight": "1.4", "fontWeight": "400"}],
+                        "label-tombol": ["14px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                        "judul-halaman": ["48px", {"lineHeight": "1.2", "fontWeight": "600"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background min-h-screen flex flex-col font-paragraf-utama text-paragraf-utama selection:bg-primary-container selection:text-on-primary-container">
+<!-- TopNavBar -->
+<nav aria-label="Main Navigation" class="fixed top-0 w-full z-50 bg-white/80 dark:bg-slate-950/80 backdrop-blur-md border-b border-slate-100 dark:border-slate-800 flex justify-between items-center px-8 py-6 max-w-full mx-auto">
+<div class="text-xl font-bold tracking-tighter text-slate-900 dark:text-white">SF INTERIOR</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-['Noto_Serif'] tracking-widest text-xs font-semibold text-[#0057FF] border-b border-[#0057FF] pb-1 hover:text-[#0057FF] duration-300" href="#beranda">BERANDA</a>
+<a class="font-['Noto_Serif'] tracking-widest text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-[#0057FF] transition-colors duration-300" href="#layanan">LAYANAN</a>
+<a class="font-['Noto_Serif'] tracking-widest text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-[#0057FF] transition-colors duration-300" href="#portofolio">PORTOFOLIO</a>
+<a class="font-['Noto_Serif'] tracking-widest text-xs font-semibold text-slate-600 dark:text-slate-400 hover:text-[#0057FF] transition-colors duration-300" href="#kontak">KONTAK</a>
+</div>
+<button class="hidden md:block bg-primary-container text-on-primary font-label-tombol text-label-tombol px-6 py-3 uppercase tracking-widest hover:bg-primary transition-colors">
+            KONSULTASI
+        </button>
+<!-- Mobile Menu Icon (Placeholder) -->
+<button aria-label="Open Menu" class="md:hidden text-slate-900 dark:text-white">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</nav>
+<main class="flex-grow pt-24">
+<!-- 1. Hero Section -->
+<section class="relative w-full h-[921px] flex items-center justify-center overflow-hidden mb-jarak-ekstra" id="beranda">
+<!-- Background Image -->
+<div class="absolute inset-0 w-full h-full">
+<img alt="Modern Minimalist Interior" class="w-full h-full object-cover object-center" data-alt="A breathtaking, ultra-minimalist living room interior flooded with natural light from floor-to-ceiling windows. The architecture features clean, sharp lines and expansive white walls that serve as a pristine canvas. Furniture consists of a few highly curated, low-profile pieces in neutral tones, contrasting with a subtle touch of vibrant primary blue in a single design accent. The mood is tranquil, sophisticated, and flawlessly precise, embodying high-end modern residential design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAq4ZTOVQxIlaBOchXxEqT_TdO3ad6CNoD0veOV_sUcrjUMPND4cabaICF-6GCbCf6jvP4Q6pEL5W_SRCoDceV0AMgC24AvT-GUBAWzC_VHi2sKQZfbU5ZSYLYaf3JIqLiEW7mcQTYuQtjrqnzw7GPUxOYeCUHKYgXFzsduXmqPB0PvC8sVfcbbdA4c9EVpdCxlo-rMeOXE3Ei9kL9UuOlIGTYOmr6LrKmeUUfz97QXIMI3-WVC7OfySSeX6kBWrARGeaxYcF3FZG4"/>
+<!-- Subtle Gradient Overlay for Text Readability -->
+<div class="absolute inset-0 bg-gradient-to-r from-black/40 to-transparent"></div>
+</div>
+<!-- Content -->
+<div class="relative z-10 container mx-auto px-margin-kontainer text-white max-w-7xl">
+<div class="max-w-3xl">
+<h1 class="font-judul-ekstra-besar text-judul-ekstra-besar text-white mb-jarak-sedang drop-shadow-sm">
+                        Meningkatkan Ruang, Menentukan Gaya Hidup
+                    </h1>
+<p class="font-subjudul-arsitektur text-subjudul-arsitektur text-white/90 font-light border-l-2 border-primary-container pl-6">
+                        SF Interior - Presisi arsitektural bertemu estetika abadi.
+                    </p>
+</div>
+</div>
+</section>
+<!-- 2. Layanan (Services) -->
+<section class="container mx-auto px-margin-kontainer mb-jarak-ekstra max-w-7xl" id="layanan">
+<div class="mb-jarak-besar">
+<h2 class="font-judul-halaman text-judul-halaman text-on-surface mb-jarak-mikro">Layanan</h2>
+<div class="w-16 h-1 bg-primary-container"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter-grid">
+<!-- Service 1 -->
+<div class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden mb-jarak-kecil bg-surface-container">
+<img alt="Desain Residensial" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A pristine, light-filled minimalist bedroom design showcasing high-end residential architecture. The room features a low-profile platform bed, crisp white linens, and pale wood floors. A single, perfectly placed geometric side table accents the space. The lighting is soft and natural, casting subtle shadows that highlight the flawless structural lines. The aesthetic is incredibly clean, luxurious, and serene." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD0YbDc6e0UEQcRe4X2cAeboCnEIKyLflhSQJN1bVcJtxLsQ7Xiz1FJ1uDlAuXLTtitgaWV-F0f4A9d0ZZiSDYDUAGj4IH8DTKobH7Fm11RyS46Qn-9GYezpkmbRbhUY17994igd-6wJm3bAeRlFnt6AHzx5x-KhlpUhoGPQcoCcZW3yIjZiaY0vOfPItYqumbOi-mJJsSJJfFmsZX7UdBNR8ds2OO5mg9UQYSjuXdeGavQtqLBBFTh4swlyaDSHu_KICIm5o-iLEE"/>
+</div>
+<h3 class="font-subjudul-arsitektur text-subjudul-arsitektur text-on-surface">Desain Residensial</h3>
+</div>
+<!-- Service 2 -->
+<div class="group cursor-pointer md:mt-12">
+<div class="relative w-full aspect-[4/5] overflow-hidden mb-jarak-kecil bg-surface-container">
+<img alt="Fit-out Komersial" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A sleek, modern corporate office interior emphasizing architectural precision. The space features glass partition walls, exposed concrete ceilings, and a vast open-plan layout. Minimalist workstations with sharp edges are arranged in an exacting grid. The lighting is bright and even, creating a professional, light-mode atmosphere. A subtle accent of primary blue is visible in a structural beam, reinforcing the brand identity." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBO99m7wHxewtlVzemqhjEj0OIxjyEKrQb4fUv4AQL4NIaW5QHM4KyY9WW6VEuslgsgGvGJg0fF5eGI-73TN9M98GqvyuGu6_fDHuA_5I1y9RWouJ3sy9HFc9nN0Dbtc52HF7EpwY7uzF4mSTtuxV0rqtYPXYxnkCrh2FzJdnSBQk4ePrq6jKeXQnriGswOzVc2dKCRvj6IdfDdQCepwAJc8fZuX65sVjitHC0a8qVj4f7MTlGnJuSuiMzii5q2rZxx92xEoN3hr8A"/>
+</div>
+<h3 class="font-subjudul-arsitektur text-subjudul-arsitektur text-on-surface">Fit-out Komersial</h3>
+</div>
+<!-- Service 3 -->
+<div class="group cursor-pointer">
+<div class="relative w-full aspect-[4/5] overflow-hidden mb-jarak-kecil bg-surface-container">
+<img alt="Furnitur Kustom" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105" data-alt="A close-up studio shot of a highly crafted, minimalist custom chair. The chair features precise joinery, pale ash wood, and a stark, geometric silhouette. It is placed against a flawless, expansive white background, emphasizing negative space. The lighting is sharp, creating crisp shadows that highlight the furniture's sculptural quality and architectural influence. The mood is gallery-like and refined." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAY7ApvLJ3HWXQkEqgs-EqS2NwmUcGlRb0Cj_PB9Jp8GH-TAHLb_RtMBBL3kL6nqwrWEptpoZdW52IFJlrQJNu2fC_wp7yD25V9hNx44i-Ol5eKDxN1rXYqwZVow3L4onvXpm7ghuSRbA-_Cmvj14mwGe-PDcBrtOKTZy31KJ7lDORwem8hwsDbwG53-ovbHwhQHTURdTLuzq_fI3vR_AcbZjUvCgwAn-CWFL8GyX8_k8GSxmrOHyVwA01FnEPs3iNf0D9jep4ikUY"/>
+</div>
+<h3 class="font-subjudul-arsitektur text-subjudul-arsitektur text-on-surface">Furnitur Kustom</h3>
+</div>
+</div>
+</section>
+<!-- 3. Portofolio -->
+<section class="bg-surface-bright py-jarak-ekstra mb-jarak-ekstra" id="portofolio">
+<div class="container mx-auto px-margin-kontainer max-w-7xl">
+<div class="mb-jarak-besar flex justify-between items-end">
+<div>
+<h2 class="font-judul-halaman text-judul-halaman text-on-surface mb-jarak-mikro">Portofolio</h2>
+<div class="w-16 h-1 bg-primary-container"></div>
+</div>
+<div class="hidden md:flex gap-4">
+<button aria-label="Previous Project" class="w-12 h-12 border border-outline flex items-center justify-center hover:bg-surface-variant transition-colors">
+<span class="material-symbols-outlined text-on-surface">arrow_back</span>
+</button>
+<button aria-label="Next Project" class="w-12 h-12 bg-primary-container text-on-primary flex items-center justify-center hover:bg-primary transition-colors">
+<span class="material-symbols-outlined">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Bento Grid Style Gallery -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-satuan-dasar h-auto md:h-[600px]">
+<!-- Main Feature -->
+<div class="md:col-span-8 relative group overflow-hidden bg-surface-container">
+<img alt="Proyek Utama" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="A sweeping, wide-angle view of a monumental modern living space. The architecture features soaring ceilings and massive, unadorned concrete columns. A singular, exquisitely detailed seating arrangement anchors the vast room. The expansive use of white space and natural light creates an almost gallery-like atmosphere. The aesthetic is ultra-minimalist, rigorous, and awe-inspiring, demonstrating peak architectural design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAvjS6sgzYDKsB6cRKd2h7fO3BgaKfVav0hV86JPM7x_GHvFMTdlgXqdB-nN0VUZi7obiF22GShPWM8sWbjKJYEILJSaaxhLgxk1AvoIMA8BoFP4UCFIppuptMCRsm2pvDO4EPnZmEZb1rvio96vuPEjxr_YnrtU6RDGihvL3Kd61DKS97nE7wbRyYnarVFWByXRijlBFqI5r_vGC2Dcr-nWyngg5iTPMcIU9jESL0U0MQX2iOs2ujRxOa62xumHf1cnvBRM7s49Io"/>
+<div class="absolute bottom-0 left-0 w-full p-8 bg-gradient-to-t from-black/80 to-transparent text-white opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+<h3 class="font-subjudul-arsitektur text-subjudul-arsitektur mb-2">Vila Kaca Sentul</h3>
+<p class="font-keterangan-kecil text-keterangan-kecil uppercase tracking-widest text-white/80">Desain Residensial</p>
+</div>
+</div>
+<!-- Side Gallery -->
+<div class="md:col-span-4 grid grid-rows-2 gap-satuan-dasar h-full">
+<div class="relative group overflow-hidden bg-surface-container">
+<img alt="Proyek Sekunder 1" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="A meticulously organized minimalist kitchen detail. Clean, handle-less white cabinetry meets a stark, unpolished grey stone countertop. A single, precise matte black faucet stands as a sculptural element. The lighting is brilliant and clear, highlighting the absolute absence of clutter. The mood is functional, pristine, and highly structured, characteristic of premium modern interior design." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpKdcg1LsXakcESs3tIczXWer-1eANeNKFGtjEDBcOJVeo-2YEcTrzG-GLdTvRp56QIzqQZrYZaIQktX3fmDODDslpc05vWY6zpXszSgov5A8T-P_3Wy9VlbRdnVpxGKwy3PqTzaxKyxX1TpWfR1Yoy7ciFnO_IJggJjTSEs7DcR0f7ZY3MpQl74oRrTq5pb-uEtM51G1TwUxIv2PM9dRs_PwWbaTs1F6bA4TMy9VXtOHIF3noBPk1aW6detBdFe_PktB5sj754z0"/>
+</div>
+<div class="relative group overflow-hidden bg-surface-container">
+<img alt="Proyek Sekunder 2" class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="A detail shot of a modern staircase in a luxury home. Floating wooden treads ascend against a pure white wall, with a barely visible frameless glass balustrade. The composition relies heavily on geometric lines and negative space. Sunlight casts sharp, architectural shadows across the steps. The overall visual is stark, beautiful, and deeply rooted in minimalist design principles." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDlapV3b3R-ukNXJGQqFGA1BZmC-EHrJrUc8dgddxkYn4NdSWlxfsOKzolkm7nRdXpmb-RZoEbDkBBY-nUYr80dTxkmF5n1AJ5cXpRtFM_39dG0EMbsGMYUwg3pbBVCWEtXhODP__Z83ui14gTCaHSylEYp_A65ePAmPSg-VTRXAjAvoKLr96xvvexguwmcAXsQbxiaMGRpD9_tzLEVQ4bRTgjrNeskXa72tZfDZJow37sWQ70vpezG8GarZebs3NcFSv2KRKESbiY"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. Kontak -->
+<section class="container mx-auto px-margin-kontainer mb-jarak-ekstra max-w-4xl text-center" id="kontak">
+<h2 class="font-judul-halaman text-judul-halaman text-on-surface mb-jarak-sedang">Siap Mengubah Ruang Anda?</h2>
+<p class="font-paragraf-utama text-paragraf-utama text-secondary mb-jarak-besar max-w-2xl mx-auto">
+                Diskusikan visi arsitektural Anda dengan tim desainer kami. Kami menciptakan ruang yang tidak hanya indah secara visual, tetapi juga fungsional secara presisi.
+            </p>
+<button class="bg-primary-container text-on-primary font-label-tombol text-label-tombol px-12 py-5 uppercase tracking-widest hover:bg-primary transition-colors inline-flex items-center gap-3">
+                KONSULTASI DENGAN DESAINER UTAMA KAMI
+                <span class="material-symbols-outlined text-lg">arrow_forward</span>
+</button>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-white dark:bg-slate-950 w-full py-12 px-8 border-t border-slate-200 dark:border-slate-800 flex flex-col md:flex-row justify-between items-center gap-6">
+<div class="text-lg font-black text-slate-900 dark:text-white">
+            SF INTERIOR
+        </div>
+<div class="font-['Noto_Serif'] text-[10px] tracking-[0.2em] uppercase text-slate-400 dark:text-slate-500">
+            © 2024 SF INTERIOR. ESTETIKA ARSITEKTURAL DALAM SETIAP RUANG.
+        </div>
+<div class="flex gap-6">
+<a class="font-['Noto_Serif'] text-[10px] tracking-[0.2em] uppercase text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors" href="#">INSTAGRAM</a>
+<a class="font-['Noto_Serif'] text-[10px] tracking-[0.2em] uppercase text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors" href="#">LINKEDIN</a>
+<a class="font-['Noto_Serif'] text-[10px] tracking-[0.2em] uppercase text-slate-400 dark:text-slate-500 hover:text-slate-900 dark:hover:text-white transition-colors" href="#">KEBIJAKAN PRIVASI</a>
+</div>
+</footer>
+</body></html>
