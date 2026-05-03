@@ -82,7 +82,7 @@ export const Contact: React.FC = () => {
             </motion.h3>
 
             <motion.p
-              className="font-inter t     ext-slate-600 mb-8 max-w-xl mx-auto"
+              className="font-inter text-slate-600 mb-8 max-w-xl mx-auto"
               initial={{ opacity: 0, y: 20 }}
               animate={isInView ? { opacity: 1, y: 0 } : {}}
               transition={{
@@ -92,7 +92,8 @@ export const Contact: React.FC = () => {
               }}
             >
               Dapatkan konsultasi gratis tanpa batasan waktu dengan desainer
-              berpengalaman kami. Wujudkan ruang yang indah dan fungsional.
+              berpengalaman kami di Tangerang. Wujudkan ruang yang indah dan
+              fungsional.
             </motion.p>
 
             {/* CTA Button */}

@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
         </span>
       </div>
       <div className="font-inter text-[10px] tracking-[0.2em] uppercase text-slate-400 dark:text-slate-500 text-center">
-        © {currentYear} SF INTERIOR. ESTETIKA ARSITEKTURAL DALAM SETIAP RUANG.
+        © {currentYear} SF INTERIOR TANGERANG. DESAIN INTERIOR PROFESIONAL.
       </div>
       <div className="flex flex-wrap justify-center gap-4 md:gap-6">
         <a

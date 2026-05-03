@@ -107,15 +107,16 @@ export const Hero: React.FC = () => {
           >
             <p className="font-inter text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed text-white/90 font-light max-w-2xl">
               <span className="text-lg sm:text-xl md:text-2xl font-medium text-white block mb-1 md:mb-2">
-                SF Interior
+                SF Interior Tangerang
               </span>
               <span className="hidden sm:inline">
-                Presisi arsitektural bertemu estetika abadi. Kami menciptakan
-                ruang yang tidak hanya indah, tetapi juga mencerminkan
-                kepribadian dan gaya hidup Anda.
+                Jasa desain interior profesional di Tangerang. Presisi
+                arsitektural bertemu estetika abadi. Kami menciptakan ruang yang
+                tidak hanya indah, tetapi juga mencerminkan kepribadian dan gaya
+                hidup Anda.
               </span>
               <span className="sm:hidden">
-                Presisi arsitektural bertemu estetika abadi. Menciptakan ruang
+                Jasa desain interior profesional di Tangerang. Menciptakan ruang
                 yang indah dan fungsional.
               </span>
             </p>
