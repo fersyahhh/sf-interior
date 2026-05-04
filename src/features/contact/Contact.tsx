@@ -177,7 +177,7 @@ export const Contact: React.FC = () => {
                 <div className="w-10 h-10 rounded-full bg-slate-100 group-hover:bg-green-50 flex items-center justify-center transition-colors duration-300">
                   <Phone className="w-5 h-5" />
                 </div>
-                <span>+62 878-7684-0984</span>
+                <span>+62 787-6840-984</span>
               </motion.a>
             </div>
 
