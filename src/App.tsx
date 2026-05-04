@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="min-h-screen flex flex-col">
       <Navbar />
-      <main className="flex-grow pt-16 md:pt-24">
+      <main className="grow pt-16 md:pt-24">
         <Hero />
         <Services />
         <Portfolio />

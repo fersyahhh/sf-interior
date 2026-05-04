@@ -12,47 +12,25 @@ export const Hero: React.FC = () => {
       {/* Background Image with Parallax Effect */}
       <motion.div
         className="absolute inset-0 w-full h-full"
-        initial={{ scale: 1.1, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        transition={{ duration: 1.2, ease: [0.22, 1, 0.36, 1] }}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
       >
         <img
           alt="Modern Minimalist Interior"
           className="w-full h-full object-cover object-center"
           src={heroImg}
+          loading="eager"
+          decoding="async"
         />
         {/* Enhanced Gradient Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/50 to-black/30"></div>
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
       </motion.div>
 
-      {/* Floating Decorative Elements */}
-      <motion.div
-        className="absolute top-20 right-10 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl"
-        animate={{
-          y: [0, -30, 0],
-          scale: [1, 1.2, 1],
-          opacity: [0.3, 0.6, 0.3],
-        }}
-        transition={{
-          duration: 8,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
-      />
-      <motion.div
-        className="absolute bottom-20 left-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-3xl"
-        animate={{
-          y: [0, 30, 0],
-          scale: [1, 1.3, 1],
-          opacity: [0.3, 0.6, 0.3],
-        }}
-        transition={{
-          duration: 10,
-          repeat: Infinity,
-          ease: "easeInOut",
-        }}
-      />
+      {/* Floating Decorative Elements - Simplified for performance */}
+      <div className="absolute top-20 right-10 w-32 h-32 bg-blue-500/10 rounded-full blur-3xl opacity-40" />
+      <div className="absolute bottom-20 left-10 w-40 h-40 bg-cyan-500/10 rounded-full blur-3xl opacity-40" />
 
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 md:px-20 lg:px-[80px] text-white max-w-7xl">
